@@ -217,8 +217,8 @@ Integrating PHP + JS in WordPress
 
 📸 Screenshots
 
-![Contact Form](assets/form.png)
-![Query List](assets/query-list.png)
+![Contact Form](assets/Contact-Form.png)
+![Query List](assets/Query-List.png)
 
 ⚠️ Future Improvements
 
