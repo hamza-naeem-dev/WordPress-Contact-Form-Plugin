@@ -12,7 +12,7 @@ if(email && subject && message && subject_counter && message_counter)
     subject.addEventListener("input", function()
     {
         const subject_input = subject.value.length
-        subject_counter.innerText = 0 + subject.value.length
+        subject_counter.innerText = subject_input
         if(subject_input >= 90)
         {
         subject_counter.classList.add("warning")
@@ -24,7 +24,7 @@ if(email && subject && message && subject_counter && message_counter)
     //Message Functionality
     message.addEventListener("input", function(){
         const message_input = message.value.length
-        message_counter.innerText = 0 + message.value.length
+        message_counter.innerText = message_input
 
         if(message_input >= 290)
         {
